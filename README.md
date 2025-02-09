@@ -1,29 +1,42 @@
 # AI-Based English Proficiency Scoring
 
-This project evaluates English language proficiency using AI models. It processes spoken English audio and assigns a proficiency score based on extracted features and text analysis. 
+This project evaluates English language proficiency using AI models. It processes spoken English audio and assigns a proficiency score based on extracted features and text analysis.
 
+## Overview
 
+This FastAPI-based system analyzes speech recordings to evaluate English language proficiency. The system processes audio, extracts both linguistic and acoustic features, and assigns a proficiency score using deep learning models. It leverages the following technologies:
 
-This project is a FastAPI-based system that evaluates English language proficiency from speech recordings. It processes audio, extracts linguistic and acoustic features, and assigns a proficiency score using deep learning models.
-
-The system uses:
 - **Whisper** to convert speech to text.
 - **Wav2Vec** to extract deep audio features.
 - **BERT** for linguistic analysis.
 - **Temporal Convolutional Network (TCN)** for scoring proficiency.
 
-Features
+## Features
 
-Speech-to-text conversion with OpenAI's Whisper.
+- **Speech-to-Text Conversion:** Utilizes OpenAI's Whisper for converting audio to text.
+- **Deep Audio Feature Extraction:** Uses Wav2Vec to derive robust audio features.
+- **Linguistic Analysis:** Employs BERT to evaluate fluency and coherence.
+- **Proficiency Classification:** Classifies proficiency into levels (A2, B1, B2, C) with TCN.
+- **REST API Integration:** Built with FastAPI for seamless integration with other applications.
 
-Deep audio feature extraction using Wav2Vec.
+> **Note:** The audio folders used to train the model can be accessed [here](https://drive.google.com/drive/folders/1vY07U0pDacUAGAMRv7tPXqVbiCULFTs_).
 
-Text analysis for fluency and coherence using BERT.
+## Installation
 
-Proficiency classification into levels (A2, B1, B2, C) using TCN.
+### Prerequisites
 
-REST API powered by FastAPI for easy integration.
+- **Python 3.8+**
+- **PyTorch**
+- **FastAPI**
+- **Hugging Face Transformers**
+- **torchaudio**
+- **OpenAI Whisper**
+- **Uvicorn** (for running the FastAPI server)
 
+### Installation Steps
 
-audios folders used to train the model link:https://drive.google.com/drive/folders/1vY07U0pDacUAGAMRv7tPXqVbiCULFTs_
+1. **Clone the Repository**
 
+   ```bash
+   git clone https://github.com/your-repo-name.git
+   cd your-repo-name
