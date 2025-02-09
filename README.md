@@ -38,5 +38,5 @@ This FastAPI-based system analyzes speech recordings to evaluate English languag
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Nsralla/Graduation-project-Back-end-models.git
+   cd Graduation-project-Back-end-models
