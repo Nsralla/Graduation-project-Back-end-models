@@ -40,3 +40,10 @@ This FastAPI-based system analyzes speech recordings to evaluate English languag
    ```bash
    git clone https://github.com/Nsralla/Graduation-project-Back-end-models.git
    cd Graduation-project-Back-end-models
+
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. 
