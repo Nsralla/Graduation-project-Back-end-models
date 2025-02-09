@@ -48,5 +48,6 @@ This FastAPI-based system analyzes speech recordings to evaluate English languag
 ### Usage
 ## Running the API Server
 Start the FastAPI server using Uvicorn:
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
 
