@@ -45,5 +45,6 @@ This FastAPI-based system analyzes speech recordings to evaluate English languag
 2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
-
-4. 
+###Usage
+##Running the API Server
+Start the FastAPI server using Uvicorn:
